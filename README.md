@@ -51,11 +51,11 @@ BC-PF aims to **bridge the gap between patients and clinical research** — prov
 ---
 
 ## ⚙️ Technologies (Planned / Used)  
-- **Frontend:** React / Next.js  
-- **Backend:** Flask or FastAPI  
-- **AI & NLP:** Python (spaCy, Hugging Face models)  
-- **Data:** ClinicalTrials.gov API  
-- **Storage:** SQLite / PostgreSQL  
-- **Deployment:** AWS / Google Cloud  
+- **Frontend:** 
+- **Backend:**  
+- **AI & NLP:**  
+- **Data:**  
+- **Storage:** 
+- **Deployment:** Openshift 
 
 ---
