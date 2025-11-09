@@ -18,8 +18,13 @@ def create_app(config_class=DevelopmentConfig):
     def health():
         return {"status": "healthy"}
 
-    # Register blueprints here if needed:
-    # from .routes import bp as main_bp
-    # app.register_blueprint(main_bp)
+    # Register blueprints
+    from app.routes.patient_routes import bp as patient_bp
+    from app.routes.trial_routes import bp as trial_bp
+    from app.routes.healthcheck import bp as health_bp
+
+    app.register_blueprint(patient_bp)
+    app.register_blueprint(trial_bp)
+    app.register_blueprint(health_bp)
 
     return app
