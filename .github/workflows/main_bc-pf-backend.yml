@@ -20,9 +20,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set working directory to backend folder
-        working-directory: backend_old
-        run: echo "Using backend_old directory"
+      - name: Debug – show backend folder files
+        run: ls -R backend_old
         
       - name: Set up Python version
         uses: actions/setup-python@v5
@@ -56,4 +55,5 @@ jobs:
           package: backend.zip
 
           
+
 
