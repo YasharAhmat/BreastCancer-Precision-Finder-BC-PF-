@@ -1,6 +1,6 @@
 import requests
 
-API_BASE = "https://bc-pf-backend-eraeasb6cfbhc7f6.canadacentral-01.azurewebsites.net"  # Update if your backend is deployed elsewhere
+API_BASE = "https://bc-pf-backend-eraeasb6cfbhc7f6.canadacentral-01.azurewebsites.net/api"  # Update if your backend is deployed elsewhere
 
 
 def match_patient_to_trials(patient_data):
